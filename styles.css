@@ -1,0 +1,369 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+[tabindex] {
+    outline: none !important;
+}
+.header-bar {
+    height: 11%;
+    width: 100%;
+    background-color: #3399cc;
+    box-sizing: border-box;
+    color: white;
+}
+
+    .header-bar label {
+        height: 10%;
+        float: left;
+        font-size: 80px;
+        margin-top:19px;
+        margin-left: 2%;
+        font-family: 'Century Gothic';
+    }
+
+
+.navbar-bar {
+    height: 4%;
+    background-color: #333333;
+}
+
+    .navbar-bar ul {
+        list-style-type: none;
+        height: 4%;
+        width: 100%;
+    }
+
+        .navbar-bar ul li {
+            float: left;
+            height: 4%;
+            border: 0px;
+            margin-left: 2%;
+        }
+
+            .navbar-bar ul li:last-child {
+                margin-right: 50px;
+                margin-top: 2px;
+            }
+
+            .navbar-bar ul li a {
+                display: inline-block;
+                box-sizing: border-box;
+                color: white;
+                text-decoration: none;
+                width: 100%;
+                height: 5%;
+                font-size: 25px;
+                font-weight: 700;
+                padding: 7px 0px 0px 0px;
+            }
+
+    .navbar-bar img {
+        height: 33px;
+    }
+
+    .navbar-bar ul li a:hover {
+        cursor: pointer;
+    }
+
+.list {
+    width: 23%;
+    height: 74%;
+    float: left;
+}
+
+    .list > div:first-child {
+        height: 10%;
+        box-sizing: border-box;
+        padding-top: 41px;
+        padding-left: 23px;
+    }
+
+        .list > div:first-child > h2 {
+        }
+
+    .list div:last-child {
+        width: 100%;
+        height: 64%;
+        float: left;
+    }
+
+#contacts {
+    list-style-type: none;
+    width: 94%;
+    height: 100%;
+    padding-left: 4%;
+    font-family: 'Segoe UI Light';
+}
+
+    #contacts > li {
+        width: 100%;
+        height: 19%;
+        box-sizing: border-box;
+        border: 2px ridge;
+        padding-left: 12px;
+        padding-bottom: 16px;
+        margin: 0;
+    }
+
+        #contacts > li:nth-child(even) {
+            border-top: 0;
+        }
+
+        #contacts > li:focus {
+            background-color: #CDE8F3;
+            
+            cursor: pointer;
+          
+        }
+
+        #contacts > li > span:first-child {
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            font-size: 38px;
+            font-weight: 350;
+        }
+
+        #contacts > li > span:nth-child(2) {
+            width: 100%;
+            box-sizing: border-box;
+            display: block;
+            font-size: 17px;
+            padding-left: .5%;
+        }
+
+        #contacts > li > span:last-child {
+            width: 100%;
+            padding-left: .5%;
+            box-sizing: border-box;
+            display: block;
+            font-size: 16px;
+        }
+
+#buttons > button {
+    float: right;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.container {
+    float: left;
+    width: 50.89%;
+    height: 74%;
+    position: relative;
+    padding: 0 1%;
+}
+
+.form-bar {
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    left: 7%;
+    top: 5%;
+    height: 87%;
+    padding-top: 2vh;
+    box-shadow: 0px 1px 20px 5px grey  ;
+    
+    position: absolute;
+}
+
+.form-add {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+
+    .form-add > p {
+        width: 80%;
+        padding: 6px 0;
+        font-size:19px;
+        }
+
+        .form-add > p > label > span {
+            color: red;
+            font-weight: 500;
+           
+        }
+        
+    .form-add > div > div > label > span {
+        color: red;
+        font-weight: 500;
+    }
+       
+        .form-add > p > label {
+            display: block;
+            font-weight: 900;
+            padding-bottom: 3px;
+            width: 100%;
+            font-size: inherit;
+        }
+
+    .form-add > p > input {
+        width: 100%;
+        height: 8%;
+        font-size: 21px;
+    }
+
+#address {
+    width: 100%;
+    height: 20%;
+    font-size: x-large;
+}
+
+#displayAddress textarea {
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.form-add > div {
+    width: 80%;
+    height: 11%;
+    margin-top: 9px;
+}
+
+    .form-add > div > div {
+        display: block;
+        width: 48%;
+        height: 100%;
+    }
+
+        .form-add > div > div:first-child {
+            float: left;
+        }
+
+        .form-add > div > div:last-child {
+            float: right;
+        }
+
+        .form-add > div > div > input {
+            width: 100%;
+            height: 70%;
+            font-size: 21px;
+        }
+
+        .form-add > div > div > label {
+            font-weight: 900;
+            height: 30%;
+            display: block;
+            font-size: 19px;
+            padding-bottom:4px;
+        }
+
+#add-button {
+    float: right;
+    width: 17%;
+    background-color: #449000;
+    height: 47px;
+    border: 0;
+    color: white;
+    margin-right:33px;
+    font-size:20px;
+}
+.form-add > div:last-child
+{
+    height:47px;
+    width:100%;
+}
+    .form-add > div:last-child button {
+        font-size: 20px;
+        float: right;
+        width: 17%;
+        background-color: #449000;
+        height: 47px;
+        border: 0;
+        margin-left: 4px;
+        color: white;
+        margin-right:10px;
+    }
+
+.display-bar {
+    width: 100%;
+    height: 64%;
+    padding-top: 60px;
+    margin-left: 80px;
+}
+
+    .display-bar > div:last-child {
+        float: left;
+        position: relative;
+        width: 15%;
+        top: 3%;
+        box-sizing: border-box;
+        height: 35px;
+    }
+
+        .display-bar > div:last-child > div:last-child {
+            margin-left: 40px;
+        }
+
+.click > div > button > span {
+    display: inline-block;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.click > div > button img {
+    height: 21px;
+    width: 21px;
+}
+
+.click > div > button {
+    height: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: white;
+}
+
+    .click > div > button:hover {
+        cursor: pointer;
+    }
+
+.display-bar > div:first-child {
+    float: left;
+}
+
+.content {
+    width: 45%;
+}
+
+    .content > div {
+        margin-top: 2%;
+        font-size: 21px;
+    }
+
+    .content > p:not(:first-child) {
+        margin-top: 4%;
+        font-size: 23px;
+    }
+
+    .content > p:first-child {
+        height: 51px;
+        margin-bottom: 30px;
+        font-size: 51px;
+    }
+
+    .content > p:last-child > span:last-child {
+        display: inline-block;
+        width: 60%;
+        word-wrap: break-word;
+    }
+
+.click > div > button > span:last-child {
+    margin-left: 7px;
+    vertical-align: 4px;
+}
+
+.display-bar textarea {
+    resize: none;
+    width:70%;
+    height:140px;
+    
+}
